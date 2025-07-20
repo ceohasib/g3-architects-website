@@ -26,8 +26,11 @@
     color: #727272;
 }
 
-.bg-light{
+.container{
     background-color: rgba(255, 144, 14, 0.1);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .btn-primary{
@@ -133,7 +136,7 @@ main > section{
     margin-bottom: 20px
 }
 
-.feature-card, .feature-title {
+.feature-title {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 0px;
@@ -204,6 +207,25 @@ main > section{
 .sponsor-companies img {
     filter: grayscale(100%);
 }
+
+/* footer{
+    font-size: 20px;
+    margin: 130px 240px 216px;
+    padding: 40px 410px;
+    border-radius: 8px;
+    text-align: center;
+} */
+
+.bg-footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    max-width: 1000px;
+    margin: 130px auto 216px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -238,6 +260,16 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+
+    .bg-footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    max-width: 1000px;
+    margin: 50px auto 50px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 10px;
+    text-align: center;
+    }
 }
 
 /* medium size device */
@@ -268,5 +300,14 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .bg-footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    max-width: 700px;
+    margin: 50px auto 50px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
     }
 }
