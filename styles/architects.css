@@ -208,18 +208,10 @@ main > section{
     filter: grayscale(100%);
 }
 
-/* footer{
-    font-size: 20px;
-    margin: 130px 240px 216px;
-    padding: 40px 410px;
-    border-radius: 8px;
-    text-align: center;
-} */
-
 .bg-footer{
     background-color: rgba(255, 144, 14, 0.1);
     max-width: 1000px;
-    margin: 130px auto 216px;
+    margin: 130px auto 100px;
     padding: 20px;
     border-radius: 8px;
     font-size: 20px;
